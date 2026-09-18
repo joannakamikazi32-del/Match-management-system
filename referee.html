@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referees - Rwanda Referees</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        <span>🇷🇼</span>
+
+        <div>
+            <h2>Rwanda Referees</h2>
+            <small>Match Management System</small>
+        </div>
+    </div>
+
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+    <nav id="navMenu">
+        <a href="homepage.html">Home</a>
+        <a href="matches.html">Matches</a>
+        <a href="referee.html" class="active">Referees</a>
+        <a href="teams.html">Teams</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+<section class="page-header">
+
+    <span class="section-label">REFEREE MANAGEMENT</span>
+
+    <h1>Registered Referees</h1>
+
+    <p>
+        Manage and organize football referees registered
+        in the Rwanda football system.
+    </p>
+
+</section>
+
+
+<section class="filter-section">
+
+    <input
+        type="text"
+        id="refereeSearch"
+        placeholder="🔍 Search referee..."
+        onkeyup="searchReferees()"
+    >
+
+    <select>
+        <option>All Categories</option>
+        <option>FIFA</option>
+        <option>National</option>
+        <option>Regional</option>
+    </select>
+
+</section>
+
+
+<section class="referee-grid">
+
+
+    <div class="referee-card">
+
+        <div class="referee-avatar">SH</div>
+
+        <div class="referee-info">
+
+            <h3>Samuel Habimana</h3>
+
+            <span class="referee-category fifa">
+                FIFA Referee
+            </span>
+
+            <p>📍 Kigali</p>
+
+            <p>📅 Experience: 10 years</p>
+
+        </div>
+
+        <div class="availability">
+            <span></span> Available
+        </div>
+
+        <button class="details-btn">
+            View Profile
+        </button>
+
+    </div>
+
+
+    <div class="referee-card">
+
+        <div class="referee-avatar">JN</div>
+
+        <div class="referee-info">
+
+            <h3>Jean Bosco Niyonzima</h3>
+
+            <span class="referee-category national">
+                National Referee
+            </span>
+
+            <p>📍 Musanze</p>
+
+            <p>📅 Experience: 7 years</p>
+
+        </div>
+
+        <div class="availability">
+            <span></span> Available
+        </div>
+
+        <button class="details-btn">
+            View Profile
+        </button>
+
+    </div>
+
+
+    <div class="referee-card">
+
+        <div class="referee-avatar">EM</div>
+
+        <div class="referee-info">
+
+            <h3>Eric Mugisha</h3>
+
+            <span class="referee-category regional">
+                Regional Referee
+            </span>
+
+            <p>📍 Kigali</p>
+
+            <p>📅 Experience: 5 years</p>
+
+        </div>
+
+        <div class="availability busy">
+            <span></span> Assigned
+        </div>
+
+        <button class="details-btn">
+            View Profile
+        </button>
+
+    </div>
+
+
+    <div class="referee-card">
+
+        <div class="referee-avatar">CM</div>
+
+        <div class="referee-info">
+
+            <h3>Claude Mutabazi</h3>
+
+            <span class="referee-category national">
+                National Referee
+            </span>
+
+            <p>📍 Rubavu</p>
+
+            <p>📅 Experience: 6 years</p>
+
+        </div>
+
+        <div class="availability">
+            <span></span> Available
+        </div>
+
+        <button class="details-btn">
+            View Profile
+        </button>
+
+    </div>
+
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="copyright">
+        © 2026 Rwanda Referees Management System
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
