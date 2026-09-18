@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Teams - Rwanda Referees</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="navbar">
+
+    <div class="logo">
+
+        <span>🇷🇼</span>
+
+        <div>
+
+            <h2>Rwanda Referees</h2>
+
+            <small>Match Management System</small>
+
+        </div>
+
+    </div>
+
+
+    <button class="menu-toggle"
+            onclick="toggleMenu()">
+        ☰
+    </button>
+
+
+    <nav id="navMenu">
+
+        <a href="homepage.html">
+            Home
+        </a>
+
+        <a href="matches.html">
+            Matches
+        </a>
+
+        <a href="referee.html">
+            Referees
+        </a>
+
+        <a href="teams.html"
+           class="active">
+            Teams
+        </a>
+
+    </nav>
+
+</header>
+
+
+
+<main>
+
+
+<section class="page-header">
+
+    <span class="section-label">
+        TEAM MANAGEMENT
+    </span>
+
+    <h1>
+        Rwanda Football Teams
+    </h1>
+
+    <p>
+        View teams participating in Rwanda football
+        competitions and their information.
+    </p>
+
+</section>
+
+
+
+<section class="filter-section">
+
+    <input
+        type="text"
+        id="teamSearch"
+        placeholder="🔍 Search teams..."
+        onkeyup="searchTeams()"
+    >
+
+
+    <select>
+
+        <option>
+            All Competitions
+        </option>
+
+        <option>
+            Premier League
+        </option>
+
+        <option>
+            Second Division
+        </option>
+
+        <option>
+            Women's League
+        </option>
+
+    </select>
+
+</section>
+
+
+
+<section class="team-grid">
+
+
+<div class="team-management-card">
+
+    <div class="club-logo">
+        A
+    </div>
+
+    <h3>
+        APR FC
+    </h3>
+
+    <span>
+        Kigali
+    </span>
+
+    <div class="team-meta">
+
+        <p>
+            🏆 Premier League
+        </p>
+
+        <p>
+            ⚽ Founded: 1993
+        </p>
+
+    </div>
+
+    <button class="details-btn">
+        View Team
+    </button>
+
+</div>
+
+
+
+<div class="team-management-card">
+
+    <div class="club-logo">
+        R
+    </div>
+
+    <h3>
+        Rayon Sports
+    </h3>
+
+    <span>
+        Kigali
+    </span>
+
+    <div class="team-meta">
+
+        <p>
+            🏆 Premier League
+        </p>
+
+        <p>
+            ⚽ Founded: 1968
+        </p>
+
+    </div>
+
+    <button class="details-btn">
+        View Team
+    </button>
+
+</div>
+
+
+
+<div class="team-management-card">
+
+    <div class="club-logo">
+        P
+    </div>
+
+    <h3>
+        Police FC
+    </h3>
+
+    <span>
+        Kigali
+    </span>
+
+    <div class="team-meta">
+
+        <p>
+            🏆 Premier League
+        </p>
+
+        <p>
+            ⚽ Founded: 2003
+        </p>
+
+    </div>
+
+    <button class="details-btn">
+        View Team
+    </button>
+
+</div>
+
+
+
+<div class="team-management-card">
+
+    <div class="club-logo">
+        M
+    </div>
+
+    <h3>
+        Musanze FC
+    </h3>
+
+    <span>
+        Musanze
+    </span>
+
+    <div class="team-meta">
+
+        <p>
+            🏆 Premier League
+        </p>
+
+        <p>
+            ⚽ Founded: 2008
+        </p>
+
+    </div>
+
+    <button class="details-btn">
+        View Team
+    </button>
+
+</div>
+
+
+
+<div class="team-management-card">
+
+    <div class="club-logo">
+        G
+    </div>
+
+    <h3>
+        Gorilla FC
+    </h3>
+
+    <span>
+        Kigali
+    </span>
+
+    <div class="team-meta">
+
+        <p>
+            🏆 Premier League
+        </p>
+
+        <p>
+            ⚽ Founded: 2004
+        </p>
+
+    </div>
+
+    <button class="details-btn">
+        View Team
+    </button>
+
+</div>
+
+
+
+<div class="team-management-card">
+
+    <div class="club-logo">
+        K
+    </div>
+
+    <h3>
+        Kiyovu Sports
+    </h3>
+
+    <span>
+        Kigali
+    </span>
+
+    <div class="team-meta">
+
+        <p>
+            🏆 Premier League
+        </p>
+
+        <p>
+            ⚽ Founded: 1964
+        </p>
+
+    </div>
+
+    <button class="details-btn">
+        View Team
+    </button>
+
+</div>
+
+
+</section>
+
+</main>
+
+
+
+<footer>
+
+    <div class="copyright">
+
+        © 2026 Rwanda Referees Management System
+
+    </div>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
